@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "cross-env NODE_ENV=testing jest --verbose --runInBand",
-    "server": "nodemon index"
+    "server": "nodemon index.js"
   },
   "devDependencies": {
     "@types/jest": "^27.5.0",
